@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Add</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+    </head>
+    <body>
+        <h1>Add student</h1>
+        
+        <a class="btn btn-primary" href="/students">Home</a> <br><hr/>
+        <form action="/students/add" method="POST">
+            name : <input type="text" name="name" id="name"/><br>
+            geboortedatum : <input type="text" name="geboortedatum" id="geboortedatum"/><br>
+            studierichting : <input type="text" name="studierichting" id="studierichting"/><br>
+            <button type="submit">save</button>
+        </form>
+    </body>
+</html>
